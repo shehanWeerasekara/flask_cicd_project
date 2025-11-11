@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask CI/CD pipeline on Vercel! hey how are you"
+    return "hello world"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
